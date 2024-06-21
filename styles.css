@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: url('https://images.pexels.com/photos/2113994/pexels-photo-2113994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: larger;
+}
+.Stopwatch{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    height: 60%;
+    margin-top: 10%;
+    background-color: rgba(17, 33, 48, 0.644);
+    color: white;
+    gap: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(179, 66, 66);
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+.buttons button{
+    color: white;
+    background-color: rgb(17, 33, 48);
+    border: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color:rgb(9, 6, 43);
+    color:  rgb(255, 255, 255);
+}
+.buttons button:active{
+    background-color:rgb(179, 66, 66);
+    color:  rgb(17, 33, 48);
+}
+.buttons button i{
+    font-size: larger;
+}
+.lap{
+    display:flex;
+    flex-direction: column;
+    width: 170px;
+}
